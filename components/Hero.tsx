@@ -13,7 +13,7 @@ const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
           <div className="inline-flex items-center space-x-2 bg-white border border-gray-200 rounded-full px-3 py-1 mb-8 shadow-sm">
             <span className="flex h-2 w-2 rounded-full bg-green-500"></span>
             <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
-              Now accepting 2025 bookings
+              Now accepting {new Date().getFullYear()} bookings
             </span>
           </div>
           
