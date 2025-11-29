@@ -32,7 +32,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
             <div className="w-8 h-8 bg-ph-orange rounded flex items-center justify-center text-white mr-2 transform group-hover:rotate-12 transition-transform">
               <Camera size={20} />
             </div>
-            <span className="font-bold text-xl tracking-tight text-ph-dark">Lens & Light</span>
+            <span className="font-bold text-xl tracking-tight text-ph-dark">Zartive</span>
           </div>
 
           {/* Desktop Nav */}
