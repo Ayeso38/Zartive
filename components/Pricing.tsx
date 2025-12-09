@@ -62,7 +62,7 @@ const Pricing: React.FC<PricingProps> = ({ onSelectPackage }) => {
               </div>
               
               <div className="mb-8">
-                <span className="text-4xl font-extrabold text-ph-dark">${pkg.price}</span>
+                <span className="text-4xl font-extrabold text-ph-dark">RM{pkg.price}</span>
                 <span className="text-gray-500 ml-2">/ session</span>
               </div>
               
